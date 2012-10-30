@@ -208,7 +208,7 @@ $app_name = idx($app_info, 'name', '');
       }(document, 'script', 'facebook-jssdk'));
     </script>
 
-    <header class="clearfix">
+    <header style="display:none;" class="clearfix">
       <?php if (isset($basic)) { ?>
       <p id="picture" style="background-image: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal)"></p>
 
@@ -251,8 +251,6 @@ $app_name = idx($app_info, 'name', '');
 <iframe id="EasyLocator" width="810" height="830" scrolling="no" frameborder="0" src="http://www.easylocator.net/search/map3/livebetterbrands" allowtransparency="true"></iframe>
 <!-- End Easy Locator Store Locator Service //-->
 
-    <section id="guides" class="clearfix">
-      
-    </section>
+  
   </body>
 </html>
