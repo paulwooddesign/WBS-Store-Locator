@@ -243,17 +243,16 @@ $app_name = idx($app_info, 'name', '');
       <?php } else { ?>
       <div>
         <h1>Way Better Snacks | Store Locator</h1>
-        <div class="fb-login-button" data-scope="user_likes,user_photos"></div>
       </div>
       <?php } ?>
     </header>
 
-   
-
-    <section id="guides" class="clearfix">
-      <!-- Begin Easy Locator Store Locator Service //-->
+   <!-- Begin Easy Locator Store Locator Service //-->
 <iframe id="EasyLocator" width="810" height="830" scrolling="no" frameborder="0" src="http://www.easylocator.net/search/map3/livebetterbrands" allowtransparency="true"></iframe>
 <!-- End Easy Locator Store Locator Service //-->
+
+    <section id="guides" class="clearfix">
+      
     </section>
   </body>
 </html>
